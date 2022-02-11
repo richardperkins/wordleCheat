@@ -20,7 +20,7 @@ function wordleFetch() {
  * @returns {null}
  */
 function wordleInput() {
-    var solution = wordleHack();   
+    var solution = wordleFetch();   
     if (!solution)
     {
         console.log("Error finding solution");
@@ -33,3 +33,5 @@ function wordleInput() {
     }
     window.dispatchEvent(new KeyboardEvent('keydown', {'key':'Enter'}));
 }
+
+wordleInput();
