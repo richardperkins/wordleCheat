@@ -1,7 +1,6 @@
 # Wordle Cheat
-Fetches, inputs, and submits the solution to the daily Wordle
+*Fetches, inputs, and submits the solution to the daily Wordle*
 
-## Introduction
 Wordle Cheat was created solely to test the structure and data of the Wordle game.
 
 ## Usage
